@@ -14,4 +14,4 @@ How to use
     def builder = new JenkinsPipelineBootstrap().createBuilder()
     builder.mavenSparkJobPipeline('my-spark-job', 'master')
     ```
-* Start your Jenkins jaob.
+* Start your Jenkins job.
