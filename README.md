@@ -15,3 +15,10 @@ How to use
     builder.mavenSparkJobPipeline('my-spark-job', 'master')
     ```
 * Start your Jenkins job.
+
+Contributors
+----------
+
+* [Bert Jan](https://github.com/bertjan)
+* [Arno](https://github.com/arnobroekhof)
+* [Richard](https://github.com/rkettelerij)
