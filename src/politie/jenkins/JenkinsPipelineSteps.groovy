@@ -10,9 +10,6 @@ void initialize() {
 
 void cleanWorkspace() {
     sh "echo 'Cleaning workspace'"
-    // FIXME the following gets sometimes called from outside a git repository
-    // workaround with '|| true' but should be fixed properly
-    sh 'git clean -dfx node_modules || true'
     deleteDir()
 }
 
