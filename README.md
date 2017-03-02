@@ -12,7 +12,11 @@ How to use
     import politie.jenkins.*
 
     def builder = new JenkinsPipelineBootstrap().createBuilder()
-    builder.mavenSparkJobPipeline('my-spark-job', 'master')
+
+    String serviceName = 'my-service'
+    String gitBranch = 'master'
+
+    builder.mavenApplicationPipeline(serviceName, gitBranch)        
     ```
 * Start your Jenkins job.
 
