@@ -20,7 +20,7 @@ How to use
     ```
 * Start your Jenkins job.
 
-Note: if you just want to take advantage of our custom step definitions, take a look at [JenkinsPipelineSteps.groovy](JenkinsPipelineSteps.groovy)
+Note: if you just want to take advantage of our custom step definitions, take a look at [JenkinsPipelineSteps.groovy](src/politie/jenkins/JenkinsPipelineSteps.groovy)
 
 Contributors
 ----------
